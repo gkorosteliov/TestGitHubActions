@@ -16,4 +16,4 @@ jobs:
       with:
         arguments: build
     -  name: Build with Maven
-       run: ./mvnw test
+       run: exercises/01-redis-generic-container/solution/mvnw test
